@@ -1,0 +1,20 @@
+#winTimestamp .opt label {
+	margin			: 0 12px 0 -1px;
+	cursor			: pointer;
+}
+#winTimestamp .frmTime2Str {
+	display			: block;
+}
+#winTimestamp .frmStr2Time {
+	display			: none;
+}
+#winTimestamp .frmTime2Str label,
+#winTimestamp .frmStr2Time label {
+	display			: inline-block;
+	width			: 68px;
+}
+#winTimestamp .frmTime2Str input[type=text],
+#winTimestamp .frmStr2Time input[type=text] {
+	width			: 140px;
+	margin-right	: 20px;
+}

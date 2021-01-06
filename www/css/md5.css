@@ -1,0 +1,7 @@
+#winMd5 label {
+	display			: inline-block;
+	width			: 100px;
+}
+#winMd5 input[type=text] {
+	width			: 360px;
+}

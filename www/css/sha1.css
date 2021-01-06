@@ -1,0 +1,7 @@
+#winSha1 label {
+	display			: inline-block;
+	width			: 100px;
+}
+#winSha1 input[type=text] {
+	width			: 360px;
+}

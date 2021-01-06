@@ -1,2 +1,2 @@
 # widgets
-Epiloum Widget
+웹개발에 필요한 작은 도구들을 제공하는 서비스

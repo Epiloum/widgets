@@ -1,0 +1,173 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {margin:0;padding:0}
+ul,ol,li {list-style-type:none;}
+textarea {resize:vertical;}
+body {
+	background-color	: #51768c;
+	font-family			: 'Sans-serif', 'Arial', 'Helvetica', 'dotum', '돋움';
+}
+header {
+	background-color	: #2b3f52;
+}
+nav {
+	position			: absolute;
+	top					: 0px;
+	right				: 0px;
+	z-index				: 1000000;
+}
+nav ul.main > li {
+	position			: relative;
+	top					: 0px;
+	right				: 0px;
+	float				: left;
+	height				: 14px;
+	padding				: 10px 20px;
+	color				: #dddde3;
+	border-left			: 1px solid #1b2f42;
+	background-color	: #2b3f52;
+	font-size			: 10pt;
+	font-family			: 'Sans-serif', 'Arial', 'Helvetica';
+	line-height			: 100%;
+	cursor				: pointer;
+}
+nav ul.main > li > ul {
+	display				: none;
+	width				: 220px;
+	position			: absolute;
+	top					: 34px;
+	right				: 0px;
+	border-top			: 0px;
+	border-left			: 1px solid #2b3f52;
+	border-bottom		: 1px solid #2b3f52;
+	border-right		: 1px solid #2b3f52;
+	background-color	: #ffffff;
+}
+nav ul.main > li > ul > li {
+	padding				: 6px 8px;
+	background-color	: #ffffff;
+	color				: #333333;
+	font-size			: 10pt;
+	font-family			: 'Sans-serif', 'Arial', 'Helvetica';
+	line-height			: 100%;
+}
+nav ul.main > li > ul > li.disabled {
+	color				: #ccc;
+}
+nav ul.main > li:hover {
+	background-color	: #3b5370;
+	color				: #ffffff;
+}
+nav ul.main > li:hover > ul {
+	display				: block;
+}
+nav ul.main > li > ul > li:hover {
+	background-color	: #339eff;
+	color				: #ffffff;
+}
+h1 {
+	height				: 14px;
+	padding				: 10px;	
+	font-size			: 10pt;
+	color				: #ffffff;
+	font-family			: 'Sans-serif', 'Arial', 'Helvetica';
+	line-height			: 100%;
+}
+section.win {
+	position			: absolute;
+	top					: 40px;
+	left				: 20px;
+	width				: 500px;
+	background-color	: #ffffff;
+	box-shadow			: 5px 5px 10px #555;
+	font-size			: 9pt;
+	font-family			: 'Sans-serif', 'Arial', 'Helvetica';
+}
+section.win h2 {
+	position			: absolute;
+	top					: 0px;
+	left				: 0px;
+	right				: 0px;
+	height				: 13px;
+	padding				: 7px;
+	border				: 1px solid #494949;
+	background			: #444444;
+	background			: linear-gradient(#444444, #5b5b5b);
+	color				: #ffffff;
+	font-size			: 9pt;
+	cursor				: move;
+}
+section.win ul.menu {
+	position			: absolute;
+	top					: 0px;
+	right				: 0px;
+	height				: 13px;
+	padding				: 7px;
+}
+section.win ul.menu li {
+	float				: left;
+	color				: #ffffff;
+	font-size			: 9pt;
+	cursor				: pointer;
+}
+section.win > div.contents {
+	padding				: 37px 10px 10px 10px;
+}
+section.win form {
+	overflow			: hidden;
+}
+section.win form label {
+	color				: #666666;
+	font-size			: 9pt;
+	line-height			: 25px;
+}
+section.win form input[type=radio] {
+	vertical-align		: -2px;
+	cursor			: pointer;
+}
+section.win form input[type=text] {
+	height				: 13px;
+	margin-bottom		: 3px;
+	padding				: 2px;
+	border				: 1px solid #999;
+	color				: #666666;
+	font-family			: 'dotum', '돋움', 'Sans-serif';
+	font-size			: 9pt;
+	vertical-align		: -2px;
+}
+section.win form input[type=submit] {
+	width				: 44px;
+	height				: 19px;
+	margin-bottom		: 3px;
+	border				: 1px solid #999;
+	color				: #666666;
+	font-family			: 'dotum', '돋움', 'Sans-serif';
+	font-size			: 9pt;
+	vertical-align		: -2px;
+}
+section.win form textarea {
+	display				: block;
+	float				: left;
+	width				: 414px;
+	height				: 70px;
+	margin-bottom		: 3px;
+	padding				: 2px;
+	border				: 1px solid #999;
+	color				: #666666;
+	font-family			: 'dotum', '돋움', 'Sans-serif';
+	font-size			: 9pt;
+}
+section.win form input[readonly=readonly],
+section.win form textarea[readonly=readonly] {
+	background-color	: #eeeeee;
+}
+section.win form textarea[readonly=readonly] {
+	height				: 210px;
+}
+footer {
+	position			: absolute;
+	bottom				: 5px;
+	right				: 5px;
+	text-align			: right;
+	color				: #99bbcc;
+	font-family			: 'Tahoma', 'Sans-serif';
+	font-size			: 9pt;
+}

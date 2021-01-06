@@ -1,0 +1,15 @@
+#winParseCookie div {
+	overflow		: hidden;
+}
+#winParseCookie  label {
+	float			: left;
+	display			: inline-block;
+	width			: 80px;
+}
+#winParseCookie  textarea {
+	width			: 360px;
+}
+#winParseCookie .opt label {
+	display			: inline-block;
+	width			: 64px;
+}

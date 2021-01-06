@@ -1,0 +1,11 @@
+#winJsonDec div {
+	overflow		: hidden;
+}
+#winJsonDec  label {
+	float			: left;
+	display			: inline-block;
+	width			: 80px;
+}
+#winJsonDec  textarea {
+	width			: 390px;
+}

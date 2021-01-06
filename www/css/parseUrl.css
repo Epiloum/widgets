@@ -1,0 +1,15 @@
+#winParseUrl .input {
+	padding			: 4px;
+	border			: 1px solid #ffe399;
+	background-color: #fff3aa;
+}
+#winParseUrl .output {
+	padding			: 0 4px;
+}
+#winParseUrl label {
+	display			: inline-block;
+	width			: 80px;
+}
+#winParseUrl input[type=text] {
+	width			: 380px;
+}

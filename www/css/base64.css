@@ -1,0 +1,10 @@
+#winBase64 label {
+	display			: inline-block;
+	width			: 100px;
+}
+#winBase64  input[type=text] {
+	width			: 370px;
+}
+#winBase64 .opt label {
+	width			: 70px;
+}
