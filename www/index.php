@@ -52,6 +52,8 @@
 		<li>
 			String
 			<ul>
+				<li onclick="ModuleManager.add('strlen', 'String Length')">String Length</li>
+				<li onclick="ModuleManager.add('strcmp', 'String Compare')">String Compare</li>
 				<li onclick="ModuleManager.add('unserialize', 'PHP Unserialize Tool')">PHP Unserialize</li>
 				<li onclick="ModuleManager.add('md5', 'MD5 Encrypter')">MD5 Encrypter</li>
 				<li onclick="ModuleManager.add('sha1', 'SHA-1 Hash Generator')">SHA-1 Hash Generator</li>

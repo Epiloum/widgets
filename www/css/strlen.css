@@ -1,0 +1,7 @@
+#winStrlen label {
+	display			: inline-block;
+	width			: 100px;
+}
+#winStrlen input[type=text] {
+	width			: 360px;
+}
